@@ -77,7 +77,3 @@ proteins gave ≈98.5 % L4, which is dominated by near-duplicates and is not com
 assumes a prediction is correct at level L if it matches the prefix of ANY recorded EC (official scorer not supplied).
 To measure: `python predict.py --input val.parquet --output o.jsonl && python scripts/evaluate.py --pred o.jsonl --labels val_labels.parquet`.
 
-## 10. Known limitations
-Docker image not built or run; 2-vCPU runtime and a full-size test set (size unknown) not measured; the heavy
-ultra-sensitive pass has high fixed cost; the python base image is 3.11 while tests ran on 3.12; the numpy ranker mode
-is untested here beyond unit checks; UniProt-reference leakage risk (§3).
