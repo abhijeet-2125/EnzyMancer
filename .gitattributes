@@ -1,0 +1,2 @@
+bin/diamond filter=lfs diff=lfs merge=lfs -text
+weights/*.dmnd filter=lfs diff=lfs merge=lfs -text

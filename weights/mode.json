@@ -1,0 +1,1 @@
+{"scoring": "vote", "vote_k": 50, "vote_power": 12, "source_weights": {"sp_": 1.0, "un_": 0.2, "u2_": 0.1}, "extra_db": "trembl_ev2.dmnd", "extra_mode": "fast", "extra_guard": 330}

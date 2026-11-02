@@ -1,0 +1,10 @@
+[    0.0s] python 3.12.3 | Linux-6.18.44-fc-v185-x86_64-with-glibc2.39 | cpu_count=1 affinity=1 | /tmp free=8.0 GB
+[    0.7s] 49 unique inputs (48 searchable)
+[   16.3s] smoke test ok: ['-c1', '-b4'] t=2
+[   64.4s] main search (very-sensitive) done: 44/48 with hits, 4 weak
+[  206.8s] ultra-sensitive pass done: 0 re-scored
+[  206.8s] extra reference pass skipped (elapsed 207s)
+[  206.8s] scoring: vote
+[  207.7s] k-mer fallback: 186488 training sequences
+[  227.0s] k-mer rescue: 4/4 unresolved queries
+[  227.0s] done: method=diamond, 48/49 predicted from neighbours, 1 default-EC fallbacks

@@ -1,0 +1,8 @@
+fast q20 rc=0 t=20.488423613 hits_q=20
+fast mut45 rc=0 t=18.215346314 hits_q=290
+sensitive q20 rc=0 t=92.764362837 hits_q=20
+sensitive mut45 rc=0 t=98.293095177 hits_q=500
+very-sensitive q20 rc=0 t=84.137453989 hits_q=20
+very-sensitive mut45 rc=0 t=91.529742115 hits_q=500
+ultra-sensitive q20 rc=0 t=328.771309094 hits_q=20
+ultra-sensitive mut45 rc=0 t=399.919389502 hits_q=500

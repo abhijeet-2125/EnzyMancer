@@ -1,0 +1,5 @@
+bin/diamond: DIAMOND v2.1.10 (build 164), official linux x86-64 release binary, GPL-3.0, (C) Benjamin Buchfink et al.
+Source: https://github.com/bbuchfink/diamond/releases/download/v2.1.10/diamond-linux64.tar.gz
+Tarball SHA-256: 0bad31df7acef7f4e05f7763b6a4fcd964cff2191ffa5643b2c5fc8e3f4df148
+Binary  SHA-256: 36c8b7b3b77b34aa50563b99ef3675e38603eed76fd952ef679ff518d89db655
+Cite: https://doi.org/10.1038/s41592-021-01101-x

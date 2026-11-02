@@ -1,0 +1,8 @@
+[    0.0s] python 3.12.3 | Linux-6.18.44-fc-v185-x86_64-with-glibc2.39 | cpu_count=1 affinity=1 | /tmp free=8.0 GB
+[    0.5s] 49 unique inputs (48 searchable)
+[   19.0s] smoke test ok: ['-c1', '-b4'] t=2
+[  101.0s] main search (very-sensitive) done: 44/48 with hits, 4 weak
+[  101.1s] ultra-sensitive pass skipped: diamond ultra-sensitive ['-c1', '-b4'] t=2: exit code 1; stderr: Error: The sequences are expected to be proteins but only contain DNA letters. Use the option --ignore-warnings to proceed.
+[  113.4s] extra reference pass (trembl_ev2.dmnd) done: 13 with hits, 12s
+[  113.4s] scoring: vote
+[  113.4s] done: method=diamond, 44/49 predicted from neighbours, 5 default-EC fallbacks

@@ -1,0 +1,8 @@
+[    0.0s] python 3.12.3 | Linux-6.18.44-fc-v185-x86_64-with-glibc2.39 | cpu_count=1 affinity=1 | /tmp free=8.0 GB
+[    0.5s] 3009 unique inputs (3008 searchable)
+[   16.9s] smoke test ok: ['-c1', '-b4'] t=2
+[  162.1s] main search (very-sensitive) done: 3003/3008 with hits, 5 weak
+[  393.8s] ultra-sensitive pass done: 0 re-scored
+[  393.8s] extra reference pass skipped (elapsed 394s)
+[  393.8s] scoring: vote
+[  394.0s] done: method=diamond, 3003/3009 predicted from neighbours, 6 default-EC fallbacks

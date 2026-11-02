@@ -1,0 +1,19 @@
+{
+  "title": "Leak CURBER enzyme classification",
+  "slug": "leak-curber-enzyme-classification",
+  "benchmark_id": "leak-curber-enzyme-classification-20261023",
+  "input_columns": [
+    "sequence"
+  ],
+  "label_column": "ec_number",
+  "output_format": "jsonl",
+  "primary_metric": "accuracy_l4",
+  "metrics": [
+    "accuracy_l4",
+    "accuracy_l3",
+    "accuracy_l2",
+    "accuracy_l1"
+  ],
+  "data_dir": "data/enzyme_tasks/classification",
+  "task_id": "enzyme-classification"
+}
