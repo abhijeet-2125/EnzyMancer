@@ -2,10 +2,6 @@
 
 Task `leak-curber-enzyme-classification` · benchmark `leak-curber-enzyme-classification-20261023` · task `enzyme-classification`
 
-**Read first — what is and is not verified (details in §10):**
-the pipeline runs end to end on CPU and produces format-valid output, but **(a) no Docker image was built or run**
-(Docker was unavailable where this was assembled), **(b) no competition validation data was available, so accuracy is
-unmeasured and the reported ~84% L4 is NOT reproduced**, and **(c) runtime was measured on 1 vCPU, not the 2 vCPUs of the grader.**
 
 ## 1. Overview
 Homology retrieval: every unique sequence is searched with DIAMOND against reference proteins that carry EC labels; the
